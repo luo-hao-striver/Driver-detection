@@ -19,7 +19,7 @@ The project running the pycharm, so for the .sh file you should use the Git (rec
 # 5.  1_test.sh
       This is a .sh file too, you can run it for testing the models.
       
-# 6. main.p
+# 6. main.py
       The file is the important, you can change something you want.
       In the here , you should pay attention to your datasets、models... 's file path!!!!
      
