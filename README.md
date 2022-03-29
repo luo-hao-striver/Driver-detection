@@ -10,7 +10,8 @@ The project running the pycharm, so for the .sh file you should use the Git (rec
       This is a result. when you run the code ,you can get the result in here.
       
 # 3.state-farm-distracted-driver-detection directory
-      There are your datasets dowmloading from https://www.kaggle.com/competitions/state-farm-distracted-driver-detection/data.
+      There are your datasets 
+      dowmloading from https://www.kaggle.com/competitions/state-farm-distracted-driver-detection/data.
     
 # 4.  0_train.sh 
       This is a .sh file ,you should run it for training the models
@@ -18,13 +19,15 @@ The project running the pycharm, so for the .sh file you should use the Git (rec
 # 5.  1_test.sh
       This is a .sh file too, you can run it for testing the models.
       
-# 6. main.py
+# 6. main.p
       The file is the important, you can change something you want.
+      In the here , you should pay attention to your datasets、models... 's file path!!!!
      
      
      
 # My_result
-      This is my first create project in the github, If you can see here ,thank you!!. The project is my undergraduate graduation thesis's code, and I want to remenber the beautiful time.
+      This is my first create project in the github, If you can see here ,thank you!!.
+      The project is my undergraduate graduation thesis's code, and I want to remenber the beautiful time.
        
 
 
