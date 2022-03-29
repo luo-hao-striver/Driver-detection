@@ -1,7 +1,7 @@
 # Driver-detection
 The project bases on keras to detect the driver's actions which are correct or dangerous, thank you for your reading
 The project will use the VGG , ResNet and MobileNet_v1 to detect the driver datasets.
-
+The project running the pycharm, so for the .sh file you should use the Git (recommend).
 
 # 1.my_models directory
       In the directory, you can get the VGG models ,ResNet models, and MobileNet_v1 based on the keras or tensorflow.
@@ -20,7 +20,11 @@ The project will use the VGG , ResNet and MobileNet_v1 to detect the driver data
       
 # 6. main.py
       The file is the important, you can change something you want.
-      
-    
+     
+     
+     
+# My_result
+      This is my first create project in the github, If you can see here ,thank you!!. The project is my undergraduate graduation thesis's code, and I want to remenber the beautiful time.
+       
 
 
