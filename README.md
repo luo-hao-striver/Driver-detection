@@ -10,7 +10,7 @@ The project running the pycharm, so for the .sh file you should use the Git (rec
       This is a result. when you run the code ,you can get the result in here.
       
 # 3.state-farm-distracted-driver-detection directory
-      There are your datasets dowmloading form https://www.kaggle.com/competitions/state-farm-distracted-driver-detection/data.
+      There are your datasets dowmloading from https://www.kaggle.com/competitions/state-farm-distracted-driver-detection/data.
     
 # 4.  0_train.sh 
       This is a .sh file ,you should run it for training the models
