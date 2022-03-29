@@ -1,1 +1,2 @@
-
+This is a datasets directory
+You should click here (https://www.kaggle.com/competitions/state-farm-distracted-driver-detection/data) for downloading the datasets into the folder!!!
