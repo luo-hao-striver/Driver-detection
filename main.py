@@ -145,16 +145,16 @@ if __name__ == "__main__":
     #     tf.io.gfile.makedirs('./kaggle/working/test_dataset/' + label + '/')
 
 
-    # SAFE_DRIVING = os.path.join(train_dir, 'c0/')
-    # TEXTING_RIGHT = os.path.join(train_dir, 'c1/')
-    # TALKING_ON_PHONE_RIGHT = os.path.join(train_dir, 'c2/')
-    # TEXTING_LEFT = os.path.join(train_dir, 'c3/')
-    # TALKING_ON_PHONE_LEFT = os.path.join(train_dir, 'c4/')
-    # OPERATING_THE_RADIO = os.path.join(train_dir, 'c5/')
-    # DRINKING = os.path.join(train_dir, 'c6/')
-    # REACHING_BEHIND = os.path.join(train_dir, 'c7/')
-    # HAIR_MAKEUP = os.path.join(train_dir, 'c8/')
-    # TALKING_TO_PASSENGER = os.path.join(train_dir, 'c9/')
+     SAFE_DRIVING = os.path.join(train_dir, 'c0/')
+     TEXTING_RIGHT = os.path.join(train_dir, 'c1/')
+     TALKING_ON_PHONE_RIGHT = os.path.join(train_dir, 'c2/')
+     TEXTING_LEFT = os.path.join(train_dir, 'c3/')
+     TALKING_ON_PHONE_LEFT = os.path.join(train_dir, 'c4/')
+     OPERATING_THE_RADIO = os.path.join(train_dir, 'c5/')
+     DRINKING = os.path.join(train_dir, 'c6/')
+     REACHING_BEHIND = os.path.join(train_dir, 'c7/')
+     HAIR_MAKEUP = os.path.join(train_dir, 'c8/')
+     TALKING_TO_PASSENGER = os.path.join(train_dir, 'c9/')
 
     # print("Safe driving = ", len(os.listdir(SAFE_DRIVING)))
     # print("Texting right = ", len(os.listdir(TEXTING_RIGHT)))
@@ -167,13 +167,13 @@ if __name__ == "__main__":
     # print("Hair makeup = ", len(os.listdir(HAIR_MAKEUP)))
     # print("Talking to passenger = ", len(os.listdir(TALKING_TO_PASSENGER)))
 
-    # dir_list = [SAFE_DRIVING, TEXTING_RIGHT, TALKING_ON_PHONE_RIGHT, TEXTING_LEFT, TALKING_ON_PHONE_LEFT,
-    #             OPERATING_THE_RADIO, DRINKING, REACHING_BEHIND, HAIR_MAKEUP, TALKING_TO_PASSENGER]
-    # i = 0
-    # for class_label in class_labels:
-    #     # print(f"c{i}")
-    #     distribution(f"c{i}", class_label, dir_list[i])
-    #     i += 1
+     dir_list = [SAFE_DRIVING, TEXTING_RIGHT, TALKING_ON_PHONE_RIGHT, TEXTING_LEFT, TALKING_ON_PHONE_LEFT,
+                OPERATING_THE_RADIO, DRINKING, REACHING_BEHIND, HAIR_MAKEUP, TALKING_TO_PASSENGER]
+     i = 0
+     for class_label in class_labels:
+        # print(f"c{i}")
+         distribution(f"c{i}", class_label, dir_list[i])
+         i += 1
 
     # data_dir = pathlib.Path(data_dir)
 
