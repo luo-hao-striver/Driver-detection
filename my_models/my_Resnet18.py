@@ -63,10 +63,10 @@ def Resnet_18():
     x = resiidual_a_or_b(x, 512, 'a')
 
     # 最后一层
-    x = MaxPooling2D(pool_size=(3,3),strides=2)(x)
-    # x = GlobalAveragePooling2D()(x)
-    x = Flatten()(x)
-    x= Dense(1000, activation='relu')(x)
+    # x = MaxPooling2D(pool_size=(3,3),strides=2)(x)
+    x = GlobalAveragePooling2D()(x)
+    # x = Flatten()(x)
+    # x= Dense(1000, activation='relu')(x)
     x = Dropout(0.5)(x)
     y = Dense(10,activation='softmax')(x)
 
