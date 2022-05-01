@@ -31,7 +31,9 @@ The project running the pycharm, so for the .sh file you should use the Git (rec
       
 # 9.tflite.py
       If you want to create a app or use MCU、CPU which is removable,you need run the code to transform your models.
-     
+
+# 10.myqtpy5.py
+      The project is to predict a picture which on your computer and to show the result.
          
 # Application（if you want to use the model running into a app, you should look the topic!!!）
       https://github.com/yeyupiaoling/ClassificationForAndroid/tree/master/TFLiteClassification
