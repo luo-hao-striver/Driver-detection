@@ -20,7 +20,7 @@ class picture(QWidget):
         super(picture, self).__init__()
 
         self.resize(600, 400)
-        self.setWindowTitle("猫狗分类")
+        self.setWindowTitle("驾驶员行为分类")
         self.btn = QPushButton()
         self.btn.setText("打开图片")
         self.btn.clicked.connect(self.openimage)
