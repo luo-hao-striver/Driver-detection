@@ -77,11 +77,15 @@ class picture(QWidget):
         x = np.expand_dims(x, axis=0)  # 四维（1，224，224，3）#因为keras要求的维度是这样的，所以要增加一个维度
         x = x / 255
 
-        model = load_model('./models/MobileNet_epoch15_batch8.h5')
+        model = load_model('./models/Resnet18_epoch15_batch8.h5')
         predict_y = model.predict(x)
         pred_y = np.argmax(predict_y)
+        pro = np.max(predict_y)*100
+        pro = f"{pro:.4f}"
         print(pred_y)
-        self.labelclass.setText(biaoqian[str(pred_y)])
+        self.labelclass.setText("Resnet18：\n"+
+                                "预测结果："+biaoqian[str(pred_y)]+'\n'+
+                                "预测概率："+str(pro)+"%")
 
 
 if __name__ == "__main__":
